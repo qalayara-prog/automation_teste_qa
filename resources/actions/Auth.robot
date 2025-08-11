@@ -20,6 +20,6 @@ Dado que o usuário deseja acessa o portal SauceDemo
 E o usuario deseja realizar o login
     [Arguments]               ${username}
     ...                       ${password}
-    Fill Text                 ${CAMPO_USERNAME}    ${VALOR_USERNAME}
-    Fill Text                 ${CAMPO_PASSWORD}    ${VALOR_PASSWORD}
+    Fill Text                 ${CAMPO_USERNAME}    ${username}
+    Fill Text                 ${CAMPO_PASSWORD}    ${password}
     Click                     ${BOTAO_LOGIN}
